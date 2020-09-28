@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Cloud Testing" thread-count="3" parallel="tests" verbose="3">
+
+	<test name="Browser Stack Execution">
+
+		<classes>
+		
+			<class name="com.cloud.testing.CloudTestCases" /> 
+
+		</classes>
+
+	</test>
+
+</suite>
